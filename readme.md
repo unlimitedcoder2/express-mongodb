@@ -1,5 +1,11 @@
 #Example
 
+![npm](https://img.shields.io/npm/v/express-mongodb-middleware)
+
+```bash
+$ npm install express-mongodb-middleware
+```
+
 ```js
 import express from "express";
 import mongodb from "mongodb";

@@ -1,6 +1,6 @@
 {
 	"name": "express-mongodb-middleware",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Simple way to pass a mongodb instance to all of your express routes",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
