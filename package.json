@@ -1,10 +1,10 @@
 {
-	"name": "express-mongodb",
-	"version": "1.0.0",
+	"name": "express-mongodb-middleware",
+	"version": "1.0.1",
 	"description": "Simple way to pass a mongodb instance to all of your express routes",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"files": ["lib/**/*"],
+	"files": ["lib/**/*", "readme.md"],
 	"scripts": {
 		"test": "echo \"Error: LOL, as if there is gonna be tests. I just push to master with no tests and just pray shit works.\" && exit 1",
 		"build": "tsc",
