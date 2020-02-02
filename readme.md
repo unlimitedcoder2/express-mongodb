@@ -1,10 +1,13 @@
-#Example
+# express-mongodb-middleware
 
-![npm](https://img.shields.io/npm/v/express-mongodb-middleware)
+![npm](https://img.shields.io/npm/v/express-mongodb-middleware) [![GitHub license](https://img.shields.io/github/license/unlimitedcoder2/express-mongodb.svg)](https://github.com/unlimitedcoder2/express-mongodb/blob/master/LICENSE.md) [![GitHub stars](https://img.shields.io/github/stars/unlimitedcoder2/express-mongodb.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/unlimitedcoder2/express-mongodb/stargazers/)
+
 
 ```bash
-$ npm install express-mongodb-middleware
+npm install express-mongodb-middleware
 ```
+
+## Example
 
 ```js
 import express from "express";
