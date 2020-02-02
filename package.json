@@ -5,7 +5,6 @@
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": ["lib/**/*", "readme.md", "LICENSE.md"],
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"scripts": {
 		"test": "echo \"Error: LOL, as if there is gonna be tests. I just push to master with no tests and just pray shit works.\" && exit 1",
 		"build": "tsc",
