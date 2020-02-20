@@ -1,19 +1,23 @@
 {
 	"name": "express-mongodb-middleware",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Simple way to pass a mongodb instance to all of your express routes",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"files": ["lib/**/*", "readme.md", "LICENSE.md"],
+	"files": [
+		"lib/**/*",
+		"readme.md",
+		"LICENSE.md"
+	],
 	"scripts": {
 		"test": "echo \"Error: LOL, as if there is gonna be tests. I just push to master with no tests and just pray shit works.\" && exit 1",
 		"build": "tsc",
 		"format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
 		"lint": "tslint -p tsconfig.json",
-		"prepare" : "npm run build",
-		"prepublishOnly" : "npm run lint",
-		"preversion" : "npm run lint",
-		"version" : "npm run format && git add -A src"
+		"prepare": "npm run build",
+		"prepublishOnly": "npm run lint",
+		"preversion": "npm run lint",
+		"version": "npm run format && git add -A src"
 	},
 	"repository": {
 		"type": "git",

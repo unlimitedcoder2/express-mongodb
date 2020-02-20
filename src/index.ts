@@ -17,6 +17,11 @@ export default (connection: MongoClient): RequestHandler => {
   return (req: Request, res: Response, next: NextFunction) => {
     if (!connection) return next(new Error('No connection was passed to express-mongodb.'));
 
+    if (connection.isConnected()) {
+      req.db = connection;
+      return next();
+    }
+
     connection
       .connect()
       .then(db => {
